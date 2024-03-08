@@ -1,3 +1,8 @@
+for (var i = 0; i < 7; i++) {
+    let img = new Image();
+    img.src = `/flowers/flower${i}.png`;
+}
+
 onclick = (e) => {
     let i = Math.floor(Math.random() * 8);
 

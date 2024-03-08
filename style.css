@@ -1,5 +1,9 @@
 @font-face { font-family: TroubleSide; src: url('font.ttf'); } 
 
+html {
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
 body {
     height: 100vh;
     margin: 0px;
@@ -13,7 +17,8 @@ body {
     text-align: center;
     font-family: TroubleSide;
     text-shadow: #c23577a9 0px 0px 8px;
-    overflow: hidden;
+    overflow-x: hidden;
+    overflow-y: hidden;
 }
 #subtext {
     font-size: 15px;
