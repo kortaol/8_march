@@ -1,0 +1,34 @@
+@font-face { font-family: TroubleSide; src: url('font.ttf'); } 
+
+body {
+    height: 100vh;
+    margin: 0px;
+    display:grid;
+    place-items:center;
+    
+    background-color: #151515;
+    color: #c23576;
+    
+    font-size: 60px;
+    text-align: center;
+    font-family: TroubleSide;
+    text-shadow: #c23577a9 0px 0px 8px;
+}
+
+.flower {
+    position: absolute;
+    animation: flower 9s 1;
+    transform: rotate(-135deg);
+    scale: 0;
+}
+
+@keyframes flower {
+    10%, 70% {
+        transform: rotate(0);
+        scale: 100%;
+    }
+    100% {
+        transform: rotate(135);
+        scale: 0%;
+    }
+}
